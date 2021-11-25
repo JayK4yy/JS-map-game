@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS map game</title>
+    <link rel="stylesheet" href="style.css"/>
+    <!--  Leaflet  -->
+    <link rel="stylesheet" href="leaflet-1.7.1/leaflet.css" />
+    <script src="leaflet-1.7.1/leaflet-src.js"></script>
+    <script src="leaflet-1.7.1/leaflet-providers.js"></script>
+    <script src="leaflet-1.7.1/leaflet-image.js"></script>
+</head>
+<body>
+    <div id="top">
+        <div id="map" class="container"></div>
+        <div id="table" class="container">
+            <div class="item drag-target" data-id="00"></div>
+            <div class="item drag-target" data-id="10"></div>
+            <div class="item drag-target" data-id="20"></div>
+            <div class="item drag-target" data-id="30"></div>
+            <div class="item drag-target" data-id="01"></div>
+            <div class="item drag-target" data-id="11"></div>
+            <div class="item drag-target" data-id="21"></div>
+            <div class="item drag-target" data-id="31"></div>
+            <div class="item drag-target" data-id="02"></div>
+            <div class="item drag-target" data-id="12"></div>
+            <div class="item drag-target" data-id="22"></div>
+            <div class="item drag-target" data-id="32"></div>
+            <div class="item drag-target" data-id="03"></div>
+            <div class="item drag-target" data-id="13"></div>
+            <div class="item drag-target" data-id="23"></div>
+            <div class="item drag-target" data-id="33"></div>
+        </div>
+    </div>
+
+    <div id="buttons">
+        <button id="getLocation">Moja lokalizacja</button>
+        <button id="saveButton">Pobierz mapę</button>
+    </div>
+
+    <div id="puzzle-container" class=""></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
